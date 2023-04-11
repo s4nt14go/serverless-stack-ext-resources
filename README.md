@@ -1,4 +1,6 @@
-Backend [Serverless Stack](https://serverless-stack.com) tutorial done, including Best Practices & Extra Credit. 
+## Backend [SST guide](https://sst.dev/guide.html)
+
+This implementation is based on an SST guide extended version which included chapters "Best Practices" and "Extra Credit". 
 
 Actually the backend consists of:
 
@@ -7,4 +9,17 @@ Actually the backend consists of:
 
 For the frontend and the demo link check [this repo](https://github.com/s4nt14go/serverless-stack-client)
 
+## Instructions:
+
+Node version 14 used for development, using [nvm](https://github.com/nvm-sh/nvm) you can:
+```
+# set Node 14 in current terminal
+nvm use 14
+# set Node 14 as default (new terminals will use 14)
+nvm alias default 14
+```
+* Install dependencies: `npm install`
+* Deploy infrastructure: `npm run deploy`
+
+As these resources are used by [API](https://github.com/s4nt14go/serverless-stack-ext-api), first delete that API and you can do the cleanup: `npm run delete`
 
