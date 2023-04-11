@@ -1,5 +1,5 @@
 {
-  "name": "notes-ext-infra",
+  "name": "sst-guide-ext-resources",
   "type": "@serverless-stack/resources",
   "stage": "dev",
   "region": "us-east-1"
