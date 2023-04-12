@@ -23,3 +23,31 @@ nvm alias default 14
 
 As these resources are used by [API](https://github.com/s4nt14go/serverless-stack-ext-api), first delete that API and you can do the cleanup: `npm run delete`
 
+### SEED walkthrough
+
+[SEED](https://seed.run) is used for the deployment pipeline, here follows a walkthrough of the configuration steps
+
+<p align="center">
+    <img alt="deploy phases" src="doc/1addAnewApp.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/2addAservice.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/3configureTheStages.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/4pipeline.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/5deployDev.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/6devDeployed.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/7promoteToProd.png" />
+</p>
+<p align="center">
+    <img alt="deploy phases" src="doc/8prodPromotedFromDev.png" />
+</p>
