@@ -33,6 +33,9 @@ As these resources are used by [API](https://github.com/s4nt14go/serverless-stac
 <p align="center">
     <img alt="deploy phases" src="doc/2addAservice.png" />
 </p>
+
+We use an account for `dev` and a different one for `prod`:
+
 <p align="center">
     <img alt="deploy phases" src="doc/3configureTheStages.png" />
 </p>
